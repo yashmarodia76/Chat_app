@@ -13,7 +13,7 @@ const socket = require("socket.io");
 require("dotenv").config();
 
 app.use(cors({
-  origin: 'https://chatapp-vaba.vercel.app',
+  origin: 'https://chat-app-98lz.vercel.app',
   credentials: true,
   methods: 'GET,PUT,POST,OPTIONS',
   allowedHeaders: 'Content-Type,Authorization'
